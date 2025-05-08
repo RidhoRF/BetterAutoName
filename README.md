@@ -15,7 +15,7 @@ Only **Unique Names** are renamed — ensuring your model labels and sections re
 ## 🧩 Naming Convention
 
 Renamed elements follow this pattern:
-{Story}{SectionName}{Grid}_{Suffix}
+{Story}_{SectionName}_{Grid}_{Suffix}
 
 
 - `Story`: The level or story name in ETABS.
