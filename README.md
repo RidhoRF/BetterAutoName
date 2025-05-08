@@ -31,7 +31,6 @@ Renamed elements follow this pattern:
 - ✔ Works even when elements are not perfectly aligned — assigns the **nearest grid**.
 - ✔ Adds suffixes for **non-grid-aligned** or **secondary beams**.
 - ✔ Designed for **ETABS v22**.
-- ✔ Lightweight and open-source.
 
 ---
 
