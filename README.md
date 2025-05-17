@@ -1,6 +1,6 @@
 # BetterAutoName-ETABS
 
-A simple ETABS plugin that automatically renames frame elements based on the closest grid point. Compatible with **ETABS v22**.
+A simple ETABS plugin that automatically renames frame elements based on the closest grid point. Compatible with **ETABS v22** and now **ETABS v21 (standalone version)**..
 
 ---
 
@@ -30,14 +30,26 @@ Renamed elements follow this pattern:
 - ✔ Automatically renames **frame elements** based on grid locations.
 - ✔ Works even when elements are not perfectly aligned — assigns the **nearest grid**.
 - ✔ Adds suffixes for **non-grid-aligned** or **secondary beams**.
-- ✔ Designed for **ETABS v22**.
+- ✔ Compatible with **ETABS v22** and **ETABS v21 (standalone version)**.
+
+---
+## 📅 Changelog
+
+### 📌 09 May 2025
+- 🚀 **Frist Realese**: Added **v0.1** supporting **ETABS v22**
+### 📌 17 May 2025
+- 🐞 **Bug Fixes**: Fixing error **v0.1** in grid alignment detection.
+- 🛠️ **New Feature**: Added **Tolerance to nearest grid** in **v0.1** for adjust grid alignment detection.
+- 🖥️ **New**: Added **standalone version v0.1** supporting **ETABS v21**.
 
 ---
 
 ## 📥 Installation & Usage
 
 1. Download the latest release from the [Releases](https://github.com/RidhoRF/BetterAutoName/releases) tab.
-2. Run the plugin while your model is open in ETABS 22.
+2. Run the plugin while your model is open in ETABS.
+   - Use the regular version for ETABS 22.
+   - For the standalone version for ETABS 21 make sure you Activate instance for API.
 3. The plugin will process and rename applicable frame elements automatically.
 
 ---
