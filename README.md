@@ -1,4 +1,4 @@
-# BetterAutoName-ETABS
+# BetterAutoName
 
 A simple ETABS plugin that automatically renames frame elements based on the closest grid point. Compatible with **ETABS v22** and now **ETABS v21 (standalone version)**..
 
@@ -41,7 +41,8 @@ Renamed elements follow this pattern:
 - 🐞 **Bug Fixes**: Fixing error **v0.1** in grid alignment detection.
 - 🛠️ **New Feature**: Added **Tolerance to nearest grid** in **v0.1** for adjust grid alignment detection.
 - 🖥️ **New**: Added **standalone version v0.1** supporting **ETABS v21**.
-
+### 📌 23 May 2025
+- 🚀 **Realese**: Added **v0.1** supporting **SAP2000 v26**
 ---
 
 ## 📥 Installation & Usage
